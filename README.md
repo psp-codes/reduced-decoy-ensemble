@@ -289,7 +289,7 @@ __Input:__ Uses /configs/evaluate.ini file for inputs. The inputs represented by
 ### energy_comparison.py
 Calculates and plots energy comparison results.
 
-__Output:__ The outputs are size, minimum energy distance, average energy distance, standard deviation energy distance of the original and the reduced ensembles. The code also outputs a plot in .png and .pdf formats to visualize the distribution of energy distances for the original and the reduced ensembles.
+__Output:__ The outputs are minimum energy, average energy, and diameter (the difference between the highest and lowest energy) energy of the original and the reduced ensembles. The code also outputs a plot in .png and .pdf formats to visualize the distribution of energy distances for the original and the reduced ensembles.
 
 __Input:__ Uses /configs/energy_comparison.ini file for inputs. The inputs represented by key-value pairs in the /configs/energy_comparison.ini file are explained below for each key.
 
