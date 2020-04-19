@@ -261,7 +261,6 @@ __Input:__ Uses configs/evaluate.ini file for inputs. The inputs represented by 
   * file4path: a string indicating the path to the file that contains the reduced ensemble for the fourth run of GMM clustering. 
   * file5path: a string indicating the path to the file that contains the reduced ensemble for the fifth run of GMM clustering.
 
-
 * Section [reduced_gmx]
   * file1path: a string indicating the path to the file that contains the reduced ensemble for the first run of gmx-cluster clustering.
   * file2path: a string indicating the path to the file that contains the reduced ensemble for the second run of gmx-cluster clustering.
@@ -287,15 +286,12 @@ __Input:__ Uses configs/evaluate.ini file for inputs. The inputs represented by 
   * set1marker: a string indicating the marker of the points for the original ensemble.
   * set2marker: a string indicating the marker of the points for the reduced ensembles.
 
-### energy_distance_evaluation.py
-Calculates and plots energy distance results.
+### energy_comparison.py
+Calculates and plots energy comparison results.
 
 __Output:__ The outputs are size, minimum energy distance, average energy distance, standard deviation energy distance of the original and the reduced ensembles. The code also outputs a plot in .png and .pdf formats to visualize the distribution of energy distances for the original and the reduced ensembles.
 
-__Input:__ Uses configs/energy_distance_evaluate.ini file for inputs. The inputs represented by key-value pairs in the configs/energy_distance_evaluate.ini file are explained below for each key.
-
-* Section [native]
-  * filePath: a string indicating the path to the .pdb file containing the native tertiary structure coordinates.
+__Input:__ Uses configs/energy_comparison.ini file for inputs. The inputs represented by key-value pairs in the configs/energy_comparison.ini file are explained below for each key.
 
 * Section [full_size]
   * file1path: a string indicating the path to the file that contains the original ensemble for the first run. 
@@ -324,7 +320,6 @@ __Input:__ Uses configs/energy_distance_evaluate.ini file for inputs. The inputs
   * file3path: a string indicating the path to the file that contains the reduced ensemble for the third run of GMM clustering. 
   * file4path: a string indicating the path to the file that contains the reduced ensemble for the fourth run of GMM clustering. 
   * file5path: a string indicating the path to the file that contains the reduced ensemble for the fifth run of GMM clustering.
-
 
 * Section [reduced_gmx]
   * file1path: a string indicating the path to the file that contains the reduced ensemble for the first run of gmx-cluster clustering.
