@@ -2,6 +2,7 @@
 
 This repository contains codes for the project detailed in the manuscript titled "Reducing Ensembles of Protein Tertiary Structures Generated De Novo via Clustering". The manuscript is currently under review and the link to the manuscript will be provided once published.
 
+* Authors: Ahmed Bin Zaman, Parastoo Kamranfar, Carlotta Domeniconi, Amarda Shehu.
 * The dataset for the codes can be found in, https://ieee-dataport.org/open-access/dataset-reducing-ensembles-protein-tertiary-structures-generated-de-novo-clustering
 * The external libraries that the codes use are PyRosetta, NumPy, and Matplotlib.
 
