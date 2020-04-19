@@ -135,7 +135,7 @@ __Input:__ Uses configs/generation.ini file for inputs. The inputs represented b
   * filePrefix: a string indicating the path to the directory to save the output file.
 
 ### gmx_cluster.py
-Applies gmx-cluster clustering on the original ensemble and generates reduced ensemble.
+Applies gmx-cluster-usr clustering on the original ensemble and generates reduced ensemble.
 
 __Output:__ The output is a text file containing 2 columns and each row represents one structure in the reduced ensemble. The first column provides the Rosetta score4 energy and the second column provides the lRMSD to the native structure.
 
