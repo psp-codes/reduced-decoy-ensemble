@@ -1,10 +1,9 @@
 # Reduced Decoy Ensemble
-[![DOI](https://zenodo.org/badge/257004512.svg)](https://zenodo.org/badge/latestdoi/257004512)
 
 This repository contains codes for the project detailed in the manuscript titled "Reducing Ensembles of Protein Tertiary Structures Generated De Novo via Clustering". The manuscript is currently under review and the link to the manuscript will be provided once published.
 
-* Authors: Ahmed Bin Zaman, Parastoo Kamranfar, Carlotta Domeniconi, Amarda Shehu.
-* The dataset for the codes can be found in, https://ieee-dataport.org/open-access/dataset-reducing-ensembles-protein-tertiary-structures-generated-de-novo-clustering
+* Authors of the paper: Ahmed Bin Zaman, Parastoo Kamranfar, Carlotta Domeniconi, Amarda Shehu.
+* The dataset for the codes can be found in, https://ieee-dataport.org/open-access/protein-tertiary-structures-zamanmolecules20
 * The external libraries that the codes use are PyRosetta, NumPy, and Matplotlib.
 
 ## Code Files
