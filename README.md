@@ -1,4 +1,5 @@
 # Reduced Decoy Ensemble
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3758031.svg)](https://doi.org/10.5281/zenodo.3758031)
 
 This repository contains codes for the project detailed in the manuscript titled "Reducing Ensembles of Protein Tertiary Structures Generated De Novo via Clustering". The manuscript is currently under review and the link to the manuscript will be provided once published.
 
